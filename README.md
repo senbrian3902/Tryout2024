@@ -11,6 +11,7 @@
     - Mạch cầu H
     - *[ESP32 PWM on Arduino framework](https://randomnerdtutorials.com/esp32-pwm-arduino-ide/)*
     - *[ESP32 BluetoothSerial](https://randomnerdtutorials.com/esp32-bluetooth-classic-arduino-ide/)*
+    </br>
 Đối với những thí sinh chưa biết phần cơ bản, có thể tham khảo [tại đây](https://github.com/sgtsince2022/BEGINNER_TUTORIALS)
 
 * Các công cụ và driver cần cài đặt:
