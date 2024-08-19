@@ -14,14 +14,6 @@ esp32_motor::esp32_motor(Forward_pin, Backward_pin, Forward_PWM_channel, Backwar
 ```
 esp32_motor mymotor(31, 32, 0, 1, 3000, 8);
 ```
-    Explanation:
-    - PWM_resolution defines the granularity of the PWM signal.
-    - It determines how finely the PWM cycle is divided.
-    - Resolution is calculated by bits: 2^resolution.
-    - The maximum PWM value is (2^resolution)-1.
-    - Example: An 8-bit resolution allows 256 discrete levels (0 to 255).
-    - The library accepts negative values for reverse motor rotation.
-    - The PWM value range is from -maxPWM to maxPWM.
 
 * Run motor: 
 > Definition
