@@ -36,5 +36,5 @@ git clone https://github.com/STEAMGiaThieu-Club/Tryout2024.git
 * Thí sinh tạo tài khoản GitHub cá nhân *(nếu chưa có)*
 * Thí sinh clone repo này xuống máy tính cá nhân như đã hướng dẫn ở trên, sau đó push thư mục Tryout-Bot lên trang GitHub cá nhân dưới dạng một repo
 
-> [!Chú giải]
+> [!NOTE]
 > repo: hay repository - là một đơn vị kho lưu trữ code trên GitHub
