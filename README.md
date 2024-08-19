@@ -1,6 +1,6 @@
 # Tài liệu hướng dẫn Tryout</br> STEAM Gia Thiều - Năm 2024
 
-> Tham khảo phần cứng robot [tại đây](mechanic/)
+<!-- > Tham khảo phần cứng robot [tại đây](mechanic/) -->
 
 ## Cần chuẩn bị những gì?
 
