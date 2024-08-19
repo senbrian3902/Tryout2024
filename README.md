@@ -43,6 +43,6 @@
 * Thí sinh tạo tài khoản GitHub cá nhân *(nếu chưa có)*
 * Thí sinh clone repo này xuống máy tính cá nhân như đã hướng dẫn ở trên, sau đó push thư mục Tryout-Bot lên trang GitHub cá nhân dưới dạng một repo[^1]
 
-## Thư viện điều khiển động cơ có sẵn
+[^1]: repo - hay repository - là một đơn vị kho lưu trữ code trên GitHub
 
-[^1] repo: hay repository - là một đơn vị kho lưu trữ code trên GitHub
+## Thư viện điều khiển động cơ có sẵn
