@@ -46,3 +46,4 @@
 [^1]: repo - hay repository - là một đơn vị kho lưu trữ code trên GitHub
 
 ## Thư viện điều khiển động cơ có sẵn
+> Tryout-Bot là một thư mục theo chuẩn Project của PlatformIO, trong đó đã có một thư viên <esp32_motor.hpp> được SGT viết sẵn để hỗ trợ người mới điều khiển động cơ, thư viện được đặt trong thư mục [lib\DC Motor](Tryout-Bot/lib/DC%20Motor)
