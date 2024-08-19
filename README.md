@@ -26,7 +26,8 @@
 git clone https://github.com/STEAMGiaThieu-Club/Tryout2024.git
 ```
 
-> [!Lưu ý:]
+> [!Note]
+> Lưu ý
 > * Không sử dụng Arduino IDE hay các công cụ kéo thả như Scratch để lập trình*
 > * Các bạn được phép sử dụng sự hỗ trợ từ bất kỳ công cụ AI nào trước khi đến thời điểm tập trung offline cho vòng Tryout, cũng như sự hỗ trợ từ các mentor
 
