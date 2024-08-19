@@ -24,24 +24,25 @@
 * Clone hoặc tải repo Github này xuống để lấy thư mục [*Tryout-Bot*](Tryout-Bot) </br>
 
     Tải zip: Chọn Code => Download ZIP
+    
     ![Tải zip](image/zip-download.png)
     
     Dùng lệnh Git để clone:
 ```
-git clone https://github.com/STEAMGiaThieu-Club/Tryout2024.git
+    git clone https://github.com/STEAMGiaThieu-Club/Tryout2024.git
 ```
 
 > [!Note]
 > Lưu ý
-> * Không sử dụng Arduino IDE hay các công cụ kéo thả như Scratch để lập trình*
+> 
+> * Không sử dụng Arduino IDE hay các công cụ kéo thả như Scratch để lập trình
 > * Các bạn được phép sử dụng sự hỗ trợ từ bất kỳ công cụ AI nào trước khi đến thời điểm tập trung offline cho vòng Tryout, cũng như sự hỗ trợ từ các mentor của câu lạc bộ
 
 ## Một số yêu cầu cần biết trước Tryout cho các thí sinh đảm nhiệm vị trí lập trình
 
 * Thí sinh tạo tài khoản GitHub cá nhân *(nếu chưa có)*
-* Thí sinh clone repo này xuống máy tính cá nhân như đã hướng dẫn ở trên, sau đó push thư mục Tryout-Bot lên trang GitHub cá nhân dưới dạng một repo
-
-> [!NOTE]
-> repo: hay repository - là một đơn vị kho lưu trữ code trên GitHub
+* Thí sinh clone repo này xuống máy tính cá nhân như đã hướng dẫn ở trên, sau đó push thư mục Tryout-Bot lên trang GitHub cá nhân dưới dạng một repo[^1]
 
 ## Thư viện điều khiển động cơ có sẵn
+
+[^1] repo: hay repository - là một đơn vị kho lưu trữ code trên GitHub
