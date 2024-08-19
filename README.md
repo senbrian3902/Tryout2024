@@ -1,5 +1,6 @@
 # Tài liệu hướng dẫn Tryout</br> STEAM Gia Thiều - Năm 2024
 
+> Tham khảo phần cứng robot [tại đây](mechanic/)
 
 ## Cần chuẩn bị những gì?
 
@@ -8,7 +9,9 @@
     - Tín hiệu PWM
     - Điều khiển động cơ bằng tín hiệu PWM
     - Mạch cầu H
-Đối với những thí sinh chưa biết, có thể tham khảo [tại đây](https://github.com/sgtsince2022/BEGINNER_TUTORIALS)
+    - *[ESP32 PWM on Arduino framework](https://randomnerdtutorials.com/esp32-pwm-arduino-ide/)*
+    - *[ESP32 BluetoothSerial](https://randomnerdtutorials.com/esp32-bluetooth-classic-arduino-ide/)*
+Đối với những thí sinh chưa biết phần cơ bản, có thể tham khảo [tại đây](https://github.com/sgtsince2022/BEGINNER_TUTORIALS)
 
 * Các công cụ và driver cần cài đặt:
     - Git hoặc GitHub-CLI hoặc GitHub Desktop
@@ -17,7 +20,8 @@
     - Driver CP210x và CH340 để nạp chương trình cho chip
 
 
-* Clone hoặc tải repo Github này xuống để lấy thư mục [*Tryout-Bot*](Tryout-Bot)
+* Clone hoặc tải repo Github này xuống để lấy thư mục [*Tryout-Bot*](Tryout-Bot) </br>
+
     Tải zip: Chọn Code => Download ZIP
     ![Tải zip](image/zip-download.png)
     
@@ -29,12 +33,14 @@ git clone https://github.com/STEAMGiaThieu-Club/Tryout2024.git
 > [!Note]
 > Lưu ý
 > * Không sử dụng Arduino IDE hay các công cụ kéo thả như Scratch để lập trình*
-> * Các bạn được phép sử dụng sự hỗ trợ từ bất kỳ công cụ AI nào trước khi đến thời điểm tập trung offline cho vòng Tryout, cũng như sự hỗ trợ từ các mentor
+> * Các bạn được phép sử dụng sự hỗ trợ từ bất kỳ công cụ AI nào trước khi đến thời điểm tập trung offline cho vòng Tryout, cũng như sự hỗ trợ từ các mentor của câu lạc bộ
 
-## Một số yêu cầu trước Tryout cho các thí sinh đăng ký vị trí lập trình
+## Một số yêu cầu cần biết trước Tryout cho các thí sinh đảm nhiệm vị trí lập trình
 
 * Thí sinh tạo tài khoản GitHub cá nhân *(nếu chưa có)*
 * Thí sinh clone repo này xuống máy tính cá nhân như đã hướng dẫn ở trên, sau đó push thư mục Tryout-Bot lên trang GitHub cá nhân dưới dạng một repo
 
 > [!NOTE]
 > repo: hay repository - là một đơn vị kho lưu trữ code trên GitHub
+
+## Thư viện điều khiển động cơ có sẵn
