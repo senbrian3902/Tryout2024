@@ -1,12 +1,14 @@
 #include <Arduino.h>
 #include <esp32_motor.hpp>
 #include <BluetoothSerial.h>
+// #include <ESP32Servo.h>
 
 // put function declarations here:
 esp32_motor dc1(25, 26, 1, 2, 1500, 8); // banh xe ben trai
 esp32_motor dc2(33, 32, 5, 6, 1500, 8); // banh xe ben phai
 
 BluetoothSerial SerialBT;
+// Servo myServo;
 
 char cmd;
 
@@ -16,6 +18,8 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   SerialBT.begin("Xe999");
+  // myServo.attach(25);
+  // myServo.write(0);
   Serial.println("Completed");
 }
 
@@ -83,18 +87,16 @@ void loop() {
         speed = 900;
       case 'q':
         speed = 1000;
-      
-      // // case 'X':
-      // //   for(long long angle = 0; angle <= 90; angle++) {
-      // //     myServo.write(angle);
-      // //     delay(10);
-      // //   }
-      // //   delay(speed0);
-      // //   for(long long angle = 90; angle > 0; angle--) {
-      // //     myServo.write(angle);
-      // //     delay(10);
-      // //   }
-      // //   
+      // case 'X':
+      //   for(long long angle = 0; angle <= 90; angle++) {
+      //     myServo.write(angle);
+      //     delay(10);
+      //   }
+      //   delay(1000);
+      //   for(long long angle = 90; angle > 0; angle--) {
+      //     myServo.write(angle);
+      //     delay(10);
+      //   }
       default:
         dc1.Stop();
         dc2.Stop(); 
