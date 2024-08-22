@@ -11,8 +11,11 @@ BluetoothSerial SerialBT;
 // Servo myServo;
 
 char cmd;
-
 int speed = 100;
+const int servoPin = 13;
+const int ledcChannel = 8;
+const int frequency = 50;
+const int resolution = 16;
 
 void setup() {
   // put your setup code here, to run once:
@@ -20,6 +23,8 @@ void setup() {
   SerialBT.begin("Xe999");
   // myServo.attach(25);
   // myServo.write(0);
+  ledcSetup(ledcChannel, frequency, resolution); // servo
+  ledcAttachPin(servoPin, ledcChannel);
   Serial.println("Completed");
 }
 
@@ -28,6 +33,8 @@ void loop() {
   if (SerialBT.available()) {
     cmd = char(SerialBT.read());
     // Serial.println(cmd);
+    float angle = 0;
+    int dutyCycle = map(angle, 0, 180, 3277, 6553);
 
     switch (cmd) {
       case 'F':
@@ -87,7 +94,20 @@ void loop() {
         speed = 900;
       case 'q':
         speed = 1000;
-      // case 'X':
+      case 'X': 
+        ledcWrite(ledcChannel, dutyCycle);
+        delay(1000);
+        for(angle = 0; angle <= 180; angle++) {
+            dutyCycle = map(angle, 0, 180, 3277, 6553);
+            ledcWrite(ledcChannel, dutyCycle);
+            delay(1);
+        }
+      case 'x':
+        for(angle = 180; angle >= 0; angle--) {
+            dutyCycle = map(angle, 0, 180, 3277, 6553);
+            ledcWrite(ledcChannel, dutyCycle);
+            delay(1);
+        }
       //   for(long long angle = 0; angle <= 90; angle++) {
       //     myServo.write(angle);
       //     delay(10);
